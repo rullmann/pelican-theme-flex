@@ -95,10 +95,13 @@
     });
   </script>
   {% endif %}
+  {% if GOOGLE_TAG_MANAGER %}
+    {% include "partial/gtm.html" %}
+  {% endif %}
 </head>
 <body>
   {% if GOOGLE_TAG_MANAGER %}
-    {% include "partial/gtm.html" %}
+    {% include "partial/gtm_noscript.html" %}
   {% endif %}
   <aside>
     <div>
@@ -188,10 +191,6 @@
       {% endif %}
     </footer>
   </main>
-
-  {% if GOOGLE_ANALYTICS %}
-    {% include "partial/ga.html" %}
-  {% endif %}
 
   {% if GUAGES %}
     {% include "partial/guages.html" %}

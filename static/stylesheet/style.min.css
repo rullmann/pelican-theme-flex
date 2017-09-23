@@ -236,6 +236,11 @@ a.btn:hover {
   margin-right: auto;
   display: block;
 }
+.align-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .float-left {
   float: left;
 }
@@ -304,6 +309,9 @@ ul.social a.sc-pinterest {
 ul.social a.sc-linkedin {
   background-color: #3371b7;
 }
+ul.social a.sc-medium {
+  background-color: #00ab6b;
+}
 ul.social a.sc-rss {
   background-color: #f26109;
 }
@@ -321,7 +329,7 @@ ul.social a.sc-github-alt {
   background-color: #111010;
 }
 ul.social a.sc-envelope-o {
-  background-color: #578AD6;
+  background-color: #578ad6;
 }
 ul.social a.sc-reddit {
   background-color: #ff4500;
