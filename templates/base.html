@@ -61,9 +61,9 @@
   {% endif %}
 
   {% if page in hidden_pages %}
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="noindex, nofollow">
   {% else %}
-    <meta name="robots" content="{{ ROBOTS }}" />
+    <meta name="robots" content="{{ ROBOTS }}">
   {% endif %}
 
   {% if BROWSER_COLOR %}
@@ -79,8 +79,8 @@
   {% endif %}
 
   {% block meta %}
-    <meta name="author" content="{{ AUTHOR }}" />
-    <meta name="description" content="{{ SITEDESCRIPTION }}" />
+    <meta name="author" content="{{ AUTHOR }}">
+    <meta name="description" content="{{ SITEDESCRIPTION }}">
     {% include "partial/og.html" %}
   {% endblock %}
 
