@@ -94,14 +94,8 @@
     });
   </script>
   {% endif %}
-  {% if GOOGLE_TAG_MANAGER %}
-    {% include "partial/gtm.html" %}
-  {% endif %}
 </head>
 <body>
-  {% if GOOGLE_TAG_MANAGER %}
-    {% include "partial/gtm_noscript.html" %}
-  {% endif %}
   <aside>
     <div>
       <a href="{{ SITEURL }}">
