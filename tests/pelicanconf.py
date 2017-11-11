@@ -57,12 +57,6 @@ CC_LICENSE = {
 
 COPYRIGHT_YEAR = 2016
 
-STATUSCAKE = {
-    'trackid': 'test-test',
-    'days': 7,
-    'rumid': 1234,
-}
-
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
