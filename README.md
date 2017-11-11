@@ -19,18 +19,6 @@ DON'T send any questions, issues or anything related to Flex to my personal emai
 - [Multiple Code Highlight Styles](https://github.com/alexandrevicenzi/Flex/wiki/Code-Highlight)
 - [Translation Support](https://github.com/alexandrevicenzi/Flex/wiki/Translations) (new in 2.0)
 
-## Integrations
-
-- [AddThis](http://www.addthis.com/) Share Buttons and Related Posts
-- [Disqus](https://disqus.com/)
-- [duoshuo](http://duoshuo.com/) (new in 2.2)
-- [Gauges Analytics](http://get.gaug.es/)
-- [Google AdSense](https://www.google.com.br/adsense/start/) (new in 2.1)
-- [Google Analytics](https://www.google.com/analytics/web/)
-- [Google Tag Manager](https://www.google.com/tagmanager/)
-- [Piwik Analytics](http://piwik.org/)
-- [StatusCake](https://www.statuscake.com/)
-
 ## Plugins Support
 
 - [Github Corners](https://github.com/tholman/github-corners) (new in 2.2)
@@ -38,7 +26,6 @@ DON'T send any questions, issues or anything related to Flex to my personal emai
 - [Minute read](https://github.com/getpelican/pelican-plugins/tree/master/post_stats)) (new in 2.0)
 - [Related Posts](https://github.com/getpelican/pelican-plugins/tree/master/related_posts)
 - [Representative image](https://github.com/getpelican/pelican-plugins/tree/master/representative_image) (new in 2.2)
-- [Neighbors](https://github.com/getpelican/pelican-plugins/tree/master/neighbors) (new in 2.2)
 
 ## Install
 
