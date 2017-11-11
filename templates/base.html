@@ -163,10 +163,6 @@
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ ADD_THIS_ID }}" async="async"></script>
   {% endif %}
 
-  {% if PIWIK_URL and PIWIK_SITE_ID %}
-    {% include "partial/piwik.html" %}
-  {% endif %}
-
   {% include "partial/jsonld.html" %}
 
   {% block additional_js %}{% endblock %}
